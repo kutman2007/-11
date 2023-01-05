@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+input,label,button,a{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 10px;
+    margin-left: 40%;
+    
+}
+a{
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 5% 5%;
+    background-color: red;
+    cursor: pointer;
+}
+a:hover{
+    box-shadow: 0px 0px 2px 2px;
+    transition: 1s;
+}
+.email,.pasword{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+input{
+    width: 200px;
+    height: 20px;
+    border: 2px solid black;
+}
+button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid white;
+    border-radius:  10% 10%;
+   font-size: 30px;
+   color: white;
+   background-color: rgb(19, 18, 18);
+   cursor: pointer;
+   margin-top: 30px;
+   
+}
+button:hover{
+  box-shadow: 0px 0px 5px 5px white;
+    transition: 1s;
+}
+@media(max-width:500px) {
+    input,label,button,a{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 30%;
+    }
+    .email{
+        margin-top: 50%;
+    }
+    
+}
